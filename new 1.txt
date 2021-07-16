@@ -1,0 +1,50 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int age = 20;	
+		string name = "Kamran";
+		bool isMarried = false;
+		double studentFinalGrade = 97.0;
+		char nameFirstLetter = 'A';
+		
+		//if (age >= 18)
+		//{
+			//Console.WriteLine("Ichkini satin.");
+		//}
+		//else 
+		//{
+			//Console.WriteLine("Ichkini satmayin.");
+		//}
+		
+		int input = 7;
+		if (input % 2 == 0)
+		{
+			Console.WriteLine("Eded 2-ye bolunendi.");
+		}
+		else if (input % 3 == 0)
+		{
+			Console.WriteLine("Eded 3-e bolunendi.");
+		}
+		else 
+		{
+			Console.WriteLine("Eded 2 ve ya 3 bolunen deil.");
+		}
+		
+		int weekDay = 5;
+		switch (weekDay)
+		{
+			case 1:
+				Console.WriteLine("Bazar ertesi");
+				break;
+			case 5:
+				Console.WriteLine("Chershenbe axshami");
+				break;
+			default:
+				Console.WriteLine("Bele bir gun yoxdur");
+				break;
+		}
+	}
+}
